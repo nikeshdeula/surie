@@ -16,8 +16,31 @@ $(document).ready(function() {
     // });
 
 
-    $("#openBtn").click(function(){
-        $("").toggleClass('')
-    })
+    
+// ...................All categories owl carousel.............
+
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:false,
+        dots:true,
+        responsive:{
+            0:{
+                items:3
+            },
+            600:{
+                items:5
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+
 
 }); 
+
+
+
+
