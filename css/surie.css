@@ -56,6 +56,74 @@ nav {
 }
 
 
+/* ........................dropdown.................... */
+.dropdown ul {
+    border-radius: 0px;
+    border: none !important;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+    transform: translateY(15px);
+}
+
+
+.dropdown:hover  > ul{
+
+    display: block; 
+    transform: translateY(1px);
+    
+   
+ }
+ 
+
+.dropdown li {
+    width: 100%;
+   
+    
+    
+    
+
+}
+
+.dropdown ul li a {
+margin-left: -50px;
+border-bottom: 1px red solid;
+
+}
+
+.dropdown ul li .fa {
+  float: right;
+  margin-top: 3px;
+ 
+
+
+
+}
+
+
+
+
+
+.dropdown:hover ul li:hover {
+width: 100%;
+}
+
+
+@media (max-width: 900px) {
+    .dropdown ul {
+        width: 100%;
+        box-shadow: none !important;
+    }
+
+    .dropdown ul  {
+        width: 100%;
+        box-shadow: none !important;
+    }
+
+  
+    
+}
+
+
+
 /* ......................banner.................... */
 
 
